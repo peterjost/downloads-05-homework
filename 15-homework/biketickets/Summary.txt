@@ -1,0 +1,13 @@
+
+MuckRock page:
+https://www.muckrock.com/foi/chicago-169/bike-tickets-arrest-38464/
+
+Summary of data:
+All tickets issued for any bicycle related offense in the City of Chicago for the last five years. 
+
+Description of Processing/Cleaning:
+- Downloaded the files from muckrock.com
+- processed with Tabula - bad result
+- processed with cometdocs.com and converted into two excel files - good result
+- joint the two files
+- read in the file into my python notebook, made some cleaning (skipped rows, renamed columns, replaced values).
