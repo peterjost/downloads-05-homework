@@ -1,0 +1,13 @@
+
+MuckRock page:
+https://www.muckrock.com/foi/texas-109/texas-safe-prisonsprea-reports-39104/
+
+Summary of data:
+All monthly reports, which analyze and evaluate trends in sexual abuse, sexual harassment, and extortion, submitted by the Safe Prisons/PREA Management Office staff to the Correctional Institutions Division since Jan. 1, 2016. 
+
+Description of Processing/Cleaning:
+- Downloaded the files from muckrock.com
+- processed with Tabula - bad result
+- processed with cometdocs.com and converted into an excel file - good result
+- cleaned it up, joint some tables
+- read in the file into my python notebook, made some cleaning (renamed columns).
