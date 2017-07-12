@@ -1,0 +1,11 @@
+MuckRock page:
+https://www.muckrock.com/foi/cary-4112/firearm-project-cary-nc-34130/
+
+Summary of data:
+Detailed information on stolen guns in Cary, NC. 
+
+Description of Processing/Cleaning:
+- Downloaded the files from muckrock.com
+- processed with Tabula - bad result
+- processed with cometdocs.com and converted into an excel file - good result
+- read in the file into my python notebook, made some cleaning (skipped rows, renamed columns, replaced values).
